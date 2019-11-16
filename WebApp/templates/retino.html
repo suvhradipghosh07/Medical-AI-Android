@@ -7,6 +7,11 @@
   <script src="../static/js/dia.js"></script>
   <link rel="stylesheet" href="../static/css/style1.css">
 </head>
+<style>
+  body{
+    background-color: black;
+  }
+  </style>
 <body>
   <br><br>
 <h1 align="center "><font color="#5c8a8a">Detecting Diabetes Retinopathy using Retinal Images</font></h1>
@@ -17,7 +22,7 @@
 </select>
 <br>
 <br>
-  <input id="file_" type="file" name="pic" accept="image/*" capture="camera" onchange="readURL(this);" class="button"/>
+  <input id="file_" type="file" name="pic" accept="image/*" onchange="readURL(this);" class="button"/>
   <br>
   <br>
 <button onclick="submit();changeText('button1', 'Analysing....', 'Analyse Image');" class="button" id="button1">Analyse Image</button></center>
@@ -41,7 +46,6 @@
   </td>
  </table>
 <br>
-<a href="checkup.html"><button class="button">Home</button></a>
 </center>
 <br><br><br><br><br><br><br><br><br><br><br>
 </body>
